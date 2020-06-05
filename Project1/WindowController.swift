@@ -34,7 +34,7 @@ class WindowController: NSWindowController {
         picker.show(relativeTo: .zero, of: sender, preferredEdge: .minY)
     }
     
-    
+    // adds functionality to the shhButton, bringing up an alert dialogue that has some quippy text.
     @IBAction func shhButton(_ sender: Any) {
         let alert = NSAlert()
         alert.informativeText = "You found the not-secret button!"
