@@ -389,6 +389,20 @@
                             <allowedToolbarItems>
                                 <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="2zi-MH-TtJ"/>
                                 <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="8Z1-PK-4hP"/>
+                                <toolbarItem implicitItemIdentifier="1233C11D-A42D-4F0C-92E5-251FC739B21D" label="" paletteLabel="" sizingBehavior="auto" id="hF1-4E-JOw">
+                                    <nil key="toolTip"/>
+                                    <button key="view" verticalHuggingPriority="750" id="lcD-pX-ii0">
+                                        <rect key="frame" x="0.0" y="14" width="87" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <buttonCell key="cell" type="roundTextured" title="About" bezelStyle="texturedRounded" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="AO2-kT-SE1">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="orderFrontStandardAboutPanel:" target="Oky-zY-oP4" id="JIC-H0-vy0"/>
+                                        </connections>
+                                    </button>
+                                </toolbarItem>
                                 <toolbarItem implicitItemIdentifier="9F5016FB-26F9-43F4-A85A-AF0C7E22CCA8" label="" paletteLabel="" image="NSShareTemplate" id="ozK-Kx-33l">
                                     <nil key="toolTip"/>
                                     <size key="minSize" width="47" height="25"/>
@@ -405,9 +419,26 @@
                                         </connections>
                                     </button>
                                 </toolbarItem>
+                                <toolbarItem implicitItemIdentifier="70C057C5-F7B5-4729-BB9B-12D211792AD8" label="" paletteLabel="" sizingBehavior="auto" id="DYQ-QB-O0w">
+                                    <nil key="toolTip"/>
+                                    <button key="view" verticalHuggingPriority="750" id="L2H-Ex-AVw">
+                                        <rect key="frame" x="0.0" y="14" width="127" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <buttonCell key="cell" type="roundTextured" title="Shhh!" bezelStyle="texturedRounded" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="QSa-yW-qT2">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="shhButton:" target="B8D-0N-5wS" id="DpE-f1-Z3M"/>
+                                        </connections>
+                                    </button>
+                                </toolbarItem>
                             </allowedToolbarItems>
                             <defaultToolbarItems>
                                 <toolbarItem reference="8Z1-PK-4hP"/>
+                                <toolbarItem reference="DYQ-QB-O0w"/>
+                                <toolbarItem reference="2zi-MH-TtJ"/>
+                                <toolbarItem reference="hF1-4E-JOw"/>
                                 <toolbarItem reference="ozK-Kx-33l"/>
                             </defaultToolbarItems>
                         </toolbar>
