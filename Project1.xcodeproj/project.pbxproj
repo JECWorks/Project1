@@ -23,6 +23,7 @@
 		A92ACD4A2476E73A003D65D8 /* nssl0034.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A92ACD402476E73A003D65D8 /* nssl0034.jpg */; };
 		A92ACD4C2476E959003D65D8 /* SourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92ACD4B2476E959003D65D8 /* SourceViewController.swift */; };
 		A92ACD522476EBD8003D65D8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92ACD512476EBD8003D65D8 /* DetailViewController.swift */; };
+		A9B51A79248B0317003177C3 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B51A78248B0317003177C3 /* WindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		A92ACD402476E73A003D65D8 /* nssl0034.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0034.jpg; sourceTree = "<group>"; };
 		A92ACD4B2476E959003D65D8 /* SourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceViewController.swift; sourceTree = "<group>"; };
 		A92ACD512476EBD8003D65D8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A9B51A78248B0317003177C3 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				A92ACD282476E676003D65D8 /* ViewController.swift */,
 				A92ACD2A2476E677003D65D8 /* Assets.xcassets */,
 				A92ACD2C2476E677003D65D8 /* Main.storyboard */,
+				A9B51A78248B0317003177C3 /* WindowController.swift */,
 				A92ACD4B2476E959003D65D8 /* SourceViewController.swift */,
 				A92ACD512476EBD8003D65D8 /* DetailViewController.swift */,
 				A92ACD2F2476E677003D65D8 /* Info.plist */,
@@ -188,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A92ACD292476E676003D65D8 /* ViewController.swift in Sources */,
+				A9B51A79248B0317003177C3 /* WindowController.swift in Sources */,
 				A92ACD272476E676003D65D8 /* AppDelegate.swift in Sources */,
 				A92ACD4C2476E959003D65D8 /* SourceViewController.swift in Sources */,
 				A92ACD522476EBD8003D65D8 /* DetailViewController.swift in Sources */,
